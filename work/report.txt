@@ -1,0 +1,13 @@
+I have used GIT before. I have also used GitHub before. I prefer using git bash over any other interface.
+For markdown I have used HTML before.
+I took a course in "gymnasiet" where we used HTML.
+In that course we created some very simple websites, using only HTML.
+I don't have much experience in the field of websoft development.
+I knew of the holy trifecta of HTML, CSS and JS.
+I have used JS before.
+Using node.js, I built a simple discord bot.
+I have written maybe 10 lines in total of CSS in my life.
+Front-end development has never been a calling for me.
+GitHub pages is a totally new thing for me.
+As such, it has to be the TIL for me for this section.
+GIT Tags is also something I have not used before.
