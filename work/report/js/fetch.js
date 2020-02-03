@@ -1,7 +1,7 @@
 document.getElementById("fetchButton").addEventListener("click", function(){
     'use strict';
 
-    var schoolIdToFetch = 1256
+    //var schoolIdToFetch = 1256;
 
     fetch('data/1256.json').then((response) => {
         return response.json();
