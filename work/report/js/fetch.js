@@ -1,9 +1,9 @@
 document.getElementById("fetchButton").addEventListener("click", function(){
     'use strict';
 
-    //var schoolIdToFetch = 1256;
+    var schoolIdToFetch = document.getElementById("selectedKommun").value;
 
-    fetch('data/1080.json').then((response) => {
+    fetch('data/' + schoolIdToFetch + '.json').then((response) => {
         return response.json();
     })
     .then((myJson) => {
