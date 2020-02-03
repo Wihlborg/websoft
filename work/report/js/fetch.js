@@ -1,7 +1,7 @@
-document.getElementById("fetchButton").addEventListener("click", function(){
+document.getElementById('fetchButton').addEventListener('click', function(){
     'use strict';
 
-    var schoolIdToFetch = document.getElementById("selectedKommun").value;
+    var schoolIdToFetch = document.getElementById('locality-dropdown').value;
 
     fetch('data/' + schoolIdToFetch + '.json').then((response) => {
         return response.json();
@@ -15,7 +15,7 @@ let dropdown = document.getElementById('locality-dropdown');
 dropdown.length = 0;
 
 let defaultOption = document.createElement('option');
-defaultOption.text = 'Choose Kommun-ID';
+defaultOption.text = 'Choose Kommun';
 
 dropdown.add(defaultOption);
 dropdown.selectedIndex = 0;
