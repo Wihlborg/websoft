@@ -19,7 +19,7 @@ table, th, td {
 hr {
     background-color: blue;
     border-color: blue;
-    }
+}
 
 #duck{
     width: 128px;
@@ -29,4 +29,24 @@ hr {
     position: absolute;
     top: 50%;
     left: 0%;
+}
+.flag {
+    width: 180px;
+    height: 120px;
+    overflow: hidden;
+    border: 1px solid #efefef;
+}
+
+.sweden{
+    background: linear-gradient(to right, transparent 30%, #FECC00 30%, #FECC00 45%, transparent 0),
+     linear-gradient(to bottom, transparent 38%, #FECC00 38%, #FECC00 59%, transparent 0), #006AA7;
+}
+
+.denmark{
+    background: linear-gradient(to bottom, transparent 40%, white 40%, white 55%, transparent 55%, transparent 100%),
+     linear-gradient(to right, transparent 30%, white 30%, white 40%, transparent 40%, transparent 100%), #C60C30; 
+}
+
+.france {
+          background: linear-gradient(to right, #002395 calc(100% / 3), white calc(100% / 3), white calc(100% / 3 * 2), #ED2939 calc(100% / 3 * 2)); 
 }
