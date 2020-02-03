@@ -21,7 +21,7 @@ hr {
     border-color: blue;
     }
 
-.duck{
+#duck{
     width: 128px;
     height: 128px;
     background-image: url(../img/duck.png);
