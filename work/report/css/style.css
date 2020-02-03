@@ -20,3 +20,13 @@ hr {
     background-color: blue;
     border-color: blue;
     }
+
+.duck{
+    width: 128px;
+    height: 128px;
+    background-image: url(../img/duck.png);
+    background-size: 128px;
+    position: absolute;
+    top: 50%;
+    left: 0%;
+}

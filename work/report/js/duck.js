@@ -1,12 +1,14 @@
-class DuckObj{
-    posX = 0;
-    posY = 0;
+var duckElement = document.getElementById("duck");
+var duckButton = document.getElementById("duckButton");
 
-    duckElement = {};
+var maxW = window.innerWidth - (2* duckElement.offsetWidth);
+var maxH = window.innerHeight - (2* duckElement.offsetHeight);
 
-    timer = 10;
+duckButton.onclick = function() {
+    duckElement.hidden = !duckElement.hidden;
+}
 
-    constructor(){
-        this.duckElement = document.createElement('img');
-    }
+duckElement.onclick = function(){
+    duckElement.style.left = Math.floor(Math.random()*maxW);
+    duckElement.style.top = Math.floor(Math.random()*maxH);
 }
