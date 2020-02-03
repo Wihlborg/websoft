@@ -42,6 +42,6 @@ function populateTable(json){
     }
 
     
-    var tableContainer = document.getElementById("content");
+    var tableContainer = document.getElementById("tableContent");
     tableContainer.innerHTML = "".appendChild(table);
 }
