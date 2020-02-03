@@ -12,9 +12,11 @@ document.getElementById("fetchButton").addEventListener("click", function(){
 })
 
 function populateTable(json){
+    var schools = json.Skolenheter;
     var col = [];
-    for(var i = 0; i < json.Skolenheter.length; i++){
-        for(var key in json.Skolenheter[i]){
+    
+    for(var i = 0; i < schools.length; i++){
+        for(var key in schools[i]){
             if(col.indexOf(key) === -1){
                 col.push(key);
             }
