@@ -1,0 +1,141 @@
+{
+    "SkolenhetResponse": {
+      "Skolenheter": {
+        "Skolenhet": [
+          {
+            "Kommunkod": "1273",
+            "PeOrgNr": "2120000902",
+            "Skolenhetskod": "12073110",
+            "Skolenhetsnamn": "Yrkesskolan, gymnaisesär"
+          },
+          {
+            "Kommunkod": "1273",
+            "PeOrgNr": "2120000902",
+            "Skolenhetskod": "13184976",
+            "Skolenhetsnamn": "Hasslarödsskolan 7-9"
+          },
+          {
+            "Kommunkod": "1273",
+            "PeOrgNr": "2120000902",
+            "Skolenhetskod": "13448410",
+            "Skolenhetsnamn": "Visseltoftaskolan F-3"
+          },
+          {
+            "Kommunkod": "1273",
+            "PeOrgNr": "2120000902",
+            "Skolenhetskod": "18448015",
+            "Skolenhetsnamn": "Lärcenter/vuxenutbildning, SFI"
+          },
+          {
+            "Kommunkod": "1273",
+            "PeOrgNr": "2120000902",
+            "Skolenhetskod": "19878579",
+            "Skolenhetsnamn": "Yrkesskolan, introduktionsprogrammet"
+          },
+          {
+            "Kommunkod": "1273",
+            "PeOrgNr": "2120000902",
+            "Skolenhetskod": "20711746",
+            "Skolenhetsnamn": "Lärcenter vuxenutb, särvux"
+          },
+          {
+            "Kommunkod": "1273",
+            "PeOrgNr": "2120000902",
+            "Skolenhetskod": "21002578",
+            "Skolenhetsnamn": "Örkenedskolan F-9"
+          },
+          {
+            "Kommunkod": "1273",
+            "PeOrgNr": "2120000902",
+            "Skolenhetskod": "21621712",
+            "Skolenhetsnamn": "Hasslarödsskolan F-6"
+          },
+          {
+            "Kommunkod": "1273",
+            "PeOrgNr": "2120000902",
+            "Skolenhetskod": "29375829",
+            "Skolenhetsnamn": "Central Insamlingsenhet"
+          },
+          {
+            "Kommunkod": "1273",
+            "PeOrgNr": "2120000902",
+            "Skolenhetskod": "32003298",
+            "Skolenhetsnamn": "Naturbruksgymnasiet Osby"
+          },
+          {
+            "Kommunkod": "1273",
+            "PeOrgNr": "2120000902",
+            "Skolenhetskod": "39817178",
+            "Skolenhetsnamn": "Grundsärskola inriktning träningsskola"
+          },
+          {
+            "Kommunkod": "1273",
+            "PeOrgNr": "2120000902",
+            "Skolenhetskod": "41555549",
+            "Skolenhetsnamn": "Ekbackeskolan Ro1"
+          },
+          {
+            "Kommunkod": "1273",
+            "PeOrgNr": "2120000902",
+            "Skolenhetskod": "47218105",
+            "Skolenhetsnamn": "Lärcenter, vuxenutbildning"
+          },
+          {
+            "Kommunkod": "1273",
+            "PeOrgNr": "2120000902",
+            "Skolenhetskod": "54518621",
+            "Skolenhetsnamn": "Killebergskolan F-6"
+          },
+          {
+            "Kommunkod": "1273",
+            "PeOrgNr": "2120000902",
+            "Skolenhetskod": "61939706",
+            "Skolenhetsnamn": "Parkskolan 7-9"
+          },
+          {
+            "Kommunkod": "1273",
+            "PeOrgNr": "2120000902",
+            "Skolenhetskod": "65486343",
+            "Skolenhetsnamn": "Visslan"
+          },
+          {
+            "Kommunkod": "1273",
+            "PeOrgNr": "2120000902",
+            "Skolenhetskod": "67170282",
+            "Skolenhetsnamn": "Klockarskogsskolan F-3 "
+          },
+          {
+            "Kommunkod": "1273",
+            "PeOrgNr": "2120000902",
+            "Skolenhetskod": "67946840",
+            "Skolenhetsnamn": "Parkskolan F-9"
+          },
+          {
+            "Kommunkod": "1273",
+            "PeOrgNr": "2120000902",
+            "Skolenhetskod": "70332017",
+            "Skolenhetsnamn": "Parkskolan F-6"
+          },
+          {
+            "Kommunkod": "1273",
+            "PeOrgNr": "2120000902",
+            "Skolenhetskod": "75929014",
+            "Skolenhetsnamn": "Naturbruksgymnasiet Osby Sär"
+          },
+          {
+            "Kommunkod": "1273",
+            "PeOrgNr": "2120000902",
+            "Skolenhetskod": "85589009",
+            "Skolenhetsnamn": "Hasslarödsskolan F-9"
+          },
+          {
+            "Kommunkod": "1273",
+            "PeOrgNr": "2120000902",
+            "Skolenhetskod": "98876996",
+            "Skolenhetsnamn": "Ekbackeskolan Ro2"
+          }
+        ]
+      },
+      "Uttagsdatum": "2020-02-03T15:45:55.6908669+01:00"
+    }
+  }
