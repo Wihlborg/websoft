@@ -34,7 +34,6 @@ hr {
     width: 180px;
     height: 120px;
     overflow: hidden;
-    visibility: hidden;
     border: 1px solid #efefef;
 }
 
@@ -51,3 +50,14 @@ hr {
 .france {
           background: linear-gradient(to right, #002395 calc(100% / 3), white calc(100% / 3), white calc(100% / 3 * 2), #ED2939 calc(100% / 3 * 2)); 
 }
+
+.visible {
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 2s linear;
+  }
+  .hidden {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s 2s, opacity 2s linear;
+  }
