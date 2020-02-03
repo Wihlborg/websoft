@@ -9,7 +9,7 @@ document.getElementById("fetchButton").addEventListener("click", function(){
     .then((myJson) => {
         populateTable(myJson);
     });
-})
+});
 
 function populateTable(json){
     var schools = json.Skolenheter;
