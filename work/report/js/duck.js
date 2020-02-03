@@ -4,11 +4,11 @@ var duckButton = document.getElementById("duckButton");
 var maxW = window.innerWidth - (2* duckElement.offsetWidth);
 var maxH = window.innerHeight - (2* duckElement.offsetHeight);
 
-duckButton.onclick = function() {
+duckButton.onclick = function(){
     duckElement.hidden = !duckElement.hidden;
 }
 
 duckElement.onclick = function(){
-    duckElement.style.left = Math.floor(Math.random()*maxW);
-    duckElement.style.top = Math.floor(Math.random()*maxH);
+    duckElement.style.left = Math.floor(Math.random()*maxW) + 'px';
+    duckElement.style.top = Math.floor(Math.random()*maxH) + 'px';
 }
