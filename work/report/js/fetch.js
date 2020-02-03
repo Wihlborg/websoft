@@ -15,14 +15,15 @@ function populateTable(tableData){
     var keys = [];
     var table = document.getElementById('table');
     var tablecontent = '';
-    tablecontent += ("<tr>");
+    
+    tablecontent += ("<thead><tr>");
 
     for (key in tableData[0]) {
 
         tablecontent += ('<th>' + key + '</th>');
     }
 
-    tablecontent += ("</tr>");
+    tablecontent += ("</tr></thead><tbody>");
 
     for (var i = 0; i < tableData.length; i++) {
 
@@ -35,6 +36,8 @@ function populateTable(tableData){
 
         tablecontent += ("</tr>");
     }
+
+    tablecontent += ("</tbody>")
 
     table.innerHTML = tablecontent;
 }
