@@ -9,7 +9,6 @@ duckButton.onclick = function(){
 }
 
 duckElement.onclick = moveDuckToRandomPos;
-moveDuckToRandomPos;
 
 function moveDuckToRandomPos(){
     duckElement.style.left = Math.floor(Math.random()*maxW) + 'px';
