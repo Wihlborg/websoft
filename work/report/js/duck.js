@@ -8,7 +8,10 @@ duckButton.onclick = function(){
     duckElement.hidden = !duckElement.hidden;
 }
 
-duckElement.onclick = function(){
+duckElement.onclick = moveDuckToRandomPos;
+moveDuckToRandomPos;
+
+function moveDuckToRandomPos(){
     duckElement.style.left = Math.floor(Math.random()*maxW) + 'px';
     duckElement.style.top = Math.floor(Math.random()*maxH) + 'px';
 }
