@@ -3,7 +3,7 @@ document.getElementById("fetchButton").addEventListener("click", function(){
 
     //var schoolIdToFetch = 1256;
 
-    fetch('data/1256.json').then((response) => {
+    fetch('data/1080.json').then((response) => {
         return response.json();
     })
     .then((myJson) => {
@@ -14,7 +14,7 @@ document.getElementById("fetchButton").addEventListener("click", function(){
 function populateTable(json){
     var schools = json.Skolenheter;
     var col = [];
-    
+
     for(var i = 0; i < schools.length; i++){
         for(var key in schools[i]){
             if(col.indexOf(key) === -1){
@@ -45,5 +45,6 @@ function populateTable(json){
 
     
     var tableContainer = document.getElementById("tableContent");
-    tableContainer.innerHTML = "".appendChild(table);
+    tableContainer.innerHTML = "";
+    tableContainer.appendChild(table);
 }
