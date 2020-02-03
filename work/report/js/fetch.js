@@ -25,7 +25,7 @@ function populateTable(json){
 
     var table = document.createElement("table");
 
-    var tableRow = table.insertRow(-1);
+    var tr = table.insertRow(-1);
 
     for (var i = 0; i < col.length; i++) {
         var th = document.createElement("th");
