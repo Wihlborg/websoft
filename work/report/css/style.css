@@ -33,6 +33,7 @@ hr {
 .flag {
     width: 180px;
     height: 120px;
+    opacity: 0;
     overflow: hidden;
     border: 1px solid #efefef;
 }
