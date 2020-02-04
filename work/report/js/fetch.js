@@ -10,7 +10,10 @@ document.getElementById('fetchButton').addEventListener('click', function(){
         populateTable(myJson.Skolenheter);
     });
 });
-
+/*
+ * Propogate dropdown from kommuner.json with a default option
+ * Each option holds name (shown) and code (used in the fetch above)
+ */
 let dropdown = document.getElementById('locality-dropdown');
 dropdown.length = 0;
 
@@ -43,7 +46,7 @@ function populateTable(tableData){
     var keys = [];
     var table = document.getElementById('table');
     var tablecontent = '';
-    
+    //Create head and fill with keys from first row
     tablecontent += ("<thead><tr>");
 
     for (key in tableData[0]) {
@@ -52,7 +55,7 @@ function populateTable(tableData){
     }
 
     tablecontent += ("</tr></thead><tbody>");
-
+    //Fill body of table with data
     for (var i = 0; i < tableData.length; i++) {
 
         tablecontent += ("<tr>");
@@ -66,6 +69,6 @@ function populateTable(tableData){
     }
 
     tablecontent += ("</tbody>")
-
+    //Put tablecontent into the table
     table.innerHTML = tablecontent;
 }
