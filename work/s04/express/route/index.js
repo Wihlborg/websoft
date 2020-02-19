@@ -25,7 +25,9 @@ router.get("/lotto", (req, res) => {
     for (let i = 0; i < 7; i++) {
         while (true) {
             var randomNbr = Math.floor(Math.random() * 35) + 1;
-            if (data.numbers.includes(randomNbr) === false) {
+            if (data.numbers.includes(randomNbr) === true) {
+                continue;
+            } else {
                 data.numbers[i] = randomNbr;
                 break;
             }
