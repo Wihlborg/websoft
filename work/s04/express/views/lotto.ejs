@@ -1,0 +1,17 @@
+<h1>Lotto</h1>
+<p>Generated row</p>
+<table style="border-collapse: collapse;">
+
+    <tr>
+        <% 
+            for (let i = 0; i < numbers.length; i++) { 
+                %>
+                <td style="border: 1px solid; width: 1em; text-align:center;">
+                    <%= numbers[i]%>
+                </td>
+                <%
+            }
+            %>
+    </tr>
+
+</table>
