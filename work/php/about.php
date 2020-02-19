@@ -1,11 +1,7 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <title>About this site</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" href="favicon.ico">
-</head>
+<?php
+    $pageTitle = "about";
+    include 'view/header.php';
+    ?>
 
 <body>
 <div id="duck"></div>
@@ -40,11 +36,7 @@
 
 </article>
 
-<footer>
-    <hr>
-    <p>Footers are ok.</p>
-    <p><button id="duckButton">Hide duck</button></p>
-</footer>
+<?php include 'view/footer.php';?>
 
 
 <script type="text/javascript" src="js/main.js"></script>

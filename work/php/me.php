@@ -1,28 +1,8 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <title>Presentation of my self in the course DA377B</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" href="favicon.ico">
-</head>
+<?php
+$pageTitle = "Me";
+include 'view/header.php';?>
 
 <body onload="moveDuckToRandomPos()">
-
-<!--
-Comments are written as HTML style.
--->
-
-
-<header>
-    <nav>
-        <a href="me.html">Me</a> |
-        <a href="report.html">Report</a> | 
-        <a href="about.html">About</a> |
-        <a href="schools.html">Schools</a> |
-        <a href="flags.html">Flags</a>
-    </nav>
-</header>
 
 <hr>
 
@@ -42,11 +22,7 @@ Comments are written as HTML style.
 
 </article>
 <div id="duck"></div>
-<footer>
-    <hr>
-    <p>Footers are cool</p>
-    <p><button id="duckButton">Hide duck</button></p>
-</footer>
+<?php include 'view/footer.php';?>
 
 
 

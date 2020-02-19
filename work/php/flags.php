@@ -1,18 +1,10 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <title>Flags</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" href="favicon.ico">
-</head>
+<?php
+    $pageTitle = "flag";
+    include 'view/header.php';
+    ?>
+
 
 <body onload="moveDuckToRandomPos()">
-
-<!--
-Comments are written as HTML style.
--->
-
 
 <header>
     <nav>
@@ -31,11 +23,7 @@ Comments are written as HTML style.
 <div class="flag france"id="franceFlag"></div>
 
 <div id="duck"></div>
-<footer>
-    <hr>
-    <p>Top three flags in the world</p>
-    <p><button id="duckButton">Hide duck</button></p>
-</footer>
+<?php include 'view/footer.php';?>
 
 
 

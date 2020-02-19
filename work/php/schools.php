@@ -1,11 +1,7 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <title>Fetch school data</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" href="favicon.ico">
-</head>
+<?php
+    $pageTitle = "schools";
+    include 'view/header.php';
+    ?>
 
 <body>
 
@@ -35,11 +31,7 @@ Comments are written as HTML style.
 </div>
 <div id="duck"></div>
 
-<footer>
-    <hr>
-    <p>Provide a nice footer to your report.</p>
-    <p><button id="duckButton">Hide duck</button></p>
-</footer>
+<?php include 'view/footer.php';?>
 
 <script type="text/javascript" src="js/fetch.js"></script>
 <script type="text/javascript" src="js/duck.js"></script>

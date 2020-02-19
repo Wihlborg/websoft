@@ -1,11 +1,8 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <title>Report from the course sections</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" href="favicon.ico">
-</head>
+<?php
+    $pageTitle = "report";
+    include 'view/header.php';
+    ?>
+
 
 <body>
 
@@ -129,11 +126,7 @@
 <p>Here is the text for this section.</p>
 </section>
 
-<footer>
-    <hr>
-    <p>Provide a nice footer to your report.</p>
-    <p><button id="duckButton">Hide duck</button></p>
-</footer>
+<?php include 'view/footer.php';?>
 
 </article>
 
