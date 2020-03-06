@@ -97,7 +97,19 @@
 
 <section>
 <h2>S06</h2>
-<p>Here is the text for this section.</p>
+<p>There are a bunch of categories one can divide programming languages. These are mostly based on the main usage(s) of that language.
+OOP has been "the shit" for a while, and as such languages like Java and C# are popular. Java has been popular for the whole century, but has both decreased and increased in popularity at times. Many schools teach it but that might change.
+Something like functional programming might become more popular in the future, and then other languages can take over.
+For example, some people predict that Python (which is older than Java) might become top dog in the short future. This is mainly due to the popularity of ML.
+Languages like C/C++ will always have an application since they are more low-level and gives the programmer more control than other languages.
+Similarily a language like JavaScript, which also gives a lot of freedom, will retain popularity. These are popular with web devs and there are boatloads of frameworks and libraries to use.
+
+Personally I am a fan of Kotlin, partly due to my interest in android development. I also like the syntactic sugar.
+
+Recommendation would depend on the project at hand. For mobile, I would say Kotlin due to ease of usage while still being powerful.
+For web I would say TypeScript in order to avoid the hassle of the loose typing in JS. For desktop, maybe C# but it depends.
+
+TIL: Python has become extremly popular in the last few years, even though other languages can be better for ML. Scala might be the new JVM language of choice.</p>
 </section>
 
 <section>
