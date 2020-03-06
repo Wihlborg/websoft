@@ -1,0 +1,33 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+        <p>Hello, world! The time on the server is @DateTime.Now</p>
+</div>
+
+
+<div class="text-center">
+    <div class="table_container">
+        <table>
+            <tr>
+                <th>Number</th>
+                <th>Balance</th>
+                <th>Label</th>
+                <th>Owner</th>
+            </tr>
+            @foreach (var account in Model.accounts)
+            {
+                <tr>
+                    <td>@account.Number</td>
+                    <td>@account.Balance</td>
+                    <td>@account.Label</td>
+                    <td>@account.Owner</td>
+                </tr>
+            }
+        </table>
+    </div>
+</div>
