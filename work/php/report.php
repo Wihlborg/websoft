@@ -86,7 +86,13 @@
 
 <section>
 <h2>S05</h2>
-<p>Here is the text for this section.</p>
+<p>First time seeing PHP it looked weird. But I kinda like it. It would be interesting to use it more, in order to see if I still like it. Since we will use it in the project, I will have the chance to do this.
+    The usage of the dollar sign is still going to take some time to get used to, and its a bit awkward to get it on a nordic keyboard.
+    We have used JSP before. JSP seems to be a middle ground between PHP and Java. Also there are definitely some similarities between PHP and Java. For example, the ability to use OOP.
+    But of course there are differences. The biggest here is how you connect to a database.
+    I aimed for grade 3 at first. However, grade 4 was not that much more difficult, so I did that too. Time constraints made me not want to do more. Atleast not for now.
+    I am happy with my work and I feel that I have learned quite a bit that will be useful in the project.
+    TIL: DB connection stuff. What the $ actually does.</p>
 </section>
 
 <section>
