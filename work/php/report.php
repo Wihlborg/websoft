@@ -114,7 +114,18 @@ TIL: Python has become extremly popular in the last few years, even though other
 
 <section>
 <h2>S07</h2>
-<p>Here is the text for this section.</p>
+<p>.NET platform is a platform for development from Microsoft. It uses C#, an OOP language similar to Java. .NET can be used for both console applications and web applications.
+Creating a project in .NET gives a complete skeleton to build upon. This skeleton has some "invisible" connections which can raise questions. But when the programmer has some experience in it, it simplifies a lot of things.
+
+.NET seems to be for much larger projects. At least for the web apps. The built in MVC structure can be very useful for those kinds of projects. Also.NET can be "too much" for smaller projects where something like node.js can be more useful.
+
+
+For the exercise I used the example code as a base. Syntactic wise it is similar to Java so I felt quite comfortable. The formatting standard is different, but I let the IDE auto-format.
+Two differences that took some time to get used to were IEnumerable and more than one type of Int.
+
+For the grade I ended up doing up to grade 4. I did not have a goal in mind when starting the assignment. Instead the grade I did was based on time and motivation.
+
+TIL about how easy it was to build a base structure in .NET.</p>
 </section>
 
 <section>
