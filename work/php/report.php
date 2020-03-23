@@ -175,7 +175,22 @@ TIL: Shoulder surfing is evil.</p>
 
 <section>
 <h2>S10</h2>
-<p>Here is the text for this section.</p>
+<p>The project was implemented using PHP, HTML and CSS. We spent a weeking focusing on the project and achieved a good start.
+However, when beginning to implemet REST we ran into some problems. Different solutions were attemped, and it took a few
+days until we achieved a solution which was good enough.
+The project was reasonably difficult. Giving the students the choice in how complex or simple the project should be is
+a good idea.
+
+Working in a team went well. We divided the workload in a good way.
+
+The course as a whole was good. There were a lot of technologies learnt. This made it slightly difficult to keep track of,
+but I thought it was a good learning experience. Looking at charts of popularity showed that a lot of technologies are used,
+giving a good reason to learn them. The lecture/excercise setup was good. Studying for the exam is slightly weird. 
+Getting to know more what to study would be nice but let's see how it is on friday. 
+
+I give the course an 8/10.
+
+Final TIL was something we learned after turning in the project: the pre tag which fixed some design bugs we had.</p>
 </section>
 
 <?php include 'view/footer.php';?>
